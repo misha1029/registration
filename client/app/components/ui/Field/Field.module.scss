@@ -1,0 +1,23 @@
+
+.input {
+    @apply relative block mb-4 ;
+
+
+    >input {
+        @apply p-2 w-full text-base  rounded-md overflow-hidden 
+        block bg-white;
+
+        &::placeholder {
+            @apply text-gray-400;
+        }
+
+        &:focus-visible {
+            @apply border-primary;
+        }
+    }
+}
+
+.error {
+    @apply absolute -bottom-4 left-0 w-full text-primary;
+    font-size: 0.75rem;
+}

@@ -1,0 +1,74 @@
+/node_modules
+/.pnp
+.pnp.js
+
+# server
+
+# dependencies
+.server/dist
+.server/node_modules
+.server/node_modules/
+.server//.pnp
+.server/.pnp.js
+.server/.idea
+.server/.eslintcache
+.server/uploads
+.server/front/coverage
+
+# next.js
+.server/.next
+.server/out
+
+# production
+.server/build
+.server//build
+.server/dist
+.server//dist
+
+# misc
+.server/.DS_Store
+.server/.env
+.server/.env.local
+.server/.env.development.local
+.server/.env.test.local
+.server/.env.production.local
+
+.server/npm-debug.log*
+.server/yarn-debug.log*
+.server/yarn-error.log*
+
+# client
+
+# dependencies
+.client/node_modules
+.client/.pnp
+.client/.pnp.js
+
+# testing
+.client/coverage
+
+# next.js
+.client/.next/
+.client/out/
+
+# production
+.client/build
+
+# misc
+.client/.DS_Store
+.client/*.pem
+
+# debug
+.client/npm-debug.log*
+.client/yarn-debug.log*
+.client/yarn-error.log*
+.client/pnpm-debug.log*
+
+# local env files
+.client/.env*.local
+
+# vercel
+.client/.vercel
+
+# typescript
+.client/*.tsbuildinfo

@@ -1,0 +1,28 @@
+.wrapper {
+	@apply relative inline-flex;
+
+	.logout {
+		@apply ml-3 text-sm hover:text-blue-500 transition-colors;
+	}
+	.form {
+		@apply p-4 absolute w-60 z-20 rounded-lg;
+		right: -130px;
+		top: calc(100% + 1.4rem);
+		background-color: #1b213a;
+
+		.register {
+			@apply  text-white bg-transparent
+			block text-center font-light w-full text-sm mt-2;
+		}
+
+		.loginButton {
+			@apply mt-5 mb-1 text-center text-sm;
+		}
+	}
+
+	.button {
+		@apply shadow-icon;
+	}
+}
+
+

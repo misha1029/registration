@@ -1,0 +1,8 @@
+.header {
+    @apply flex items-center justify-around p-2 border-0 border-b-2 border-solid border-b-white;
+
+    .logo {
+        @apply text-3xl text-black font-bold;
+        line-height: 0.8;
+    }
+}
